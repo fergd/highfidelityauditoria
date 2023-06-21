@@ -1,0 +1,28 @@
+title: High Fidelity Auditoria
+author: Emily Remington
+description: Christan Fergus is a product designer
+baseurl: "/" 
+css-dir: "assets/css/"
+markdown: kramdown
+future: true
+# gems:
+#   - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - config
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - "*.DS_Store"
+  - deploy.sh
+  - .gitignore
+
+
