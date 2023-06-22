@@ -2,7 +2,9 @@
 title: High Fidelitous Auditoria
 permalink: /article/high-fidelitous-auditoria
 date: 2032-03-26
-layout: home
+layout: article
+author: Emily Remington
+type: review
 prompt: Write three paragraphs for a hypothetical audiophile magazine using fantastical words
 ---
 

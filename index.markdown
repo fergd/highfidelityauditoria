@@ -1,9 +1,17 @@
 ---
 layout: home
 ---
-# High Fidelity Auditoria
-<ul>
+
+
 {% for post in site.posts %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
+<section class="card">
+	<a href="{{post.url}}">
+		<div class="title">
+			<h2>{{post.title}}</h2>
+		</div>
+		<div class="author">
+			<span class="authorship">{{post.author}}</span>
+		</div>
+	</a>
+</section>
 {% endfor %}  
-</ul>
