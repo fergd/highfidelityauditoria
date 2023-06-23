@@ -1,20 +1,25 @@
 ---
+layout: article
+permalink: /article/moglethek-turrial
 title: Moglethek Reel to Unreal
 subtitle: The Outer Canal's Inner Limits
-permalink: /article/moglethek-turrial
 date: 2032-06-06
-layout: article
 author: Emily Remington
 type: review
-prompt: Write four paragraphs for a hypothetical audiophile magazine about a complicated reel to reel machine  using fantastical words
+ai-prompt: Write four paragraphs for a hypothetical audiophile magazine about a complicated reel to reel machine  using fantastical words
 ---
-<img src="../assets/images/copy-sound-1.jpg" alt="">
+<figure><img src="../assets/images/copy-sound-1.jpg" alt=""></figure>
+
 ### Mystifying Oscillations
+
 <span class="dropcap">M</span>oglethek Turrial is the latest addition to the audiophile world and it’s loaded with features that will make any music enthusiast jump for joy. This remarkable reel to reel machine utilizes a cilific track system that ensures precision wheter recording or playing back audio. The Turrial also features a state-of-the-art dantarific system that allows you to adjust levels with ease and precision. 
 
 One of the most impressive features of the Moglethek Turrial is its digmostationamatic synching. This revolutionary technology allows multiple machines to be linked together for an immersive listening experience like never before. With audiophiles being able to sync up to five machines, they can experience their favorite music like never before.
+
 ### Oblivious Convilatories
-<img src="../assets/images/reel-2-reel-1.jpg" alt="">
+
+<figure><img src="../assets/images/reel-2-reel-1.jpg" alt=""></figure>
+
 The Moglethek Turrial is also incredibly durable and can withstand the harshest conditions. Its hybridized screnic housing and multi- protective shield make it virtually indestructible, ensuring your precious audio remains safe and sound. Not to mention it incorporates a clivean motion system that recalibrates itself every 10 seconds for the utmost accuracy.
 
 Finally, the Moglethek Turrial has a jaw-droppingly beautiful design that’s sure to turn heads. With it’s quartzic metal finish and intricate attention to detail, this reel to reel is not only functional, but also aesthetically pleasing. 

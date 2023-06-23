@@ -1,8 +1,6 @@
 ---
 layout: home
 ---
-
-
 {% for post in site.posts %}
 <section class="card">
 	<a href="{{post.url}}">
