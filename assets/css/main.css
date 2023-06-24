@@ -49,6 +49,7 @@ table {
 }
 ul{
     list-style: none;
+    padding: 0;
 }
 :root{
     --base-font-size: 15px;
@@ -72,12 +73,14 @@ ul{
     :root {
         --background-color: white;
         --black: rgba(0,0,0,0.8);
+        --semi-trans-container: rgba(255,255,255,0.97);
     }
 }
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #1b1b1b;
         --black: rgba(255,255,255,.9);
+        --semi-trans-container: rgba(0,0,0,0.05);
     }
 }
 .visually-hidden {
@@ -116,77 +119,124 @@ main{
     height: 100vh;
     max-width: 680px;
 }
-a{color: inherit;}
-header.page-header{
-    max-width: 100%;
-    padding: var(--ms0) var(--ms0) var(--ms2) var(--ms0);
+a{
+    text-decoration: none;
+    color: inherit;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
+    font-weight: 800;
     letter-spacing: -0.04ch;
 }
 h1{
     font-size: var(--ms4);
     line-height: 0.9;
-    margin: 0;
+    margin: 0 0 var(--ms1) 0;
 }
-h1.display,h1.site-title{
-    text-shadow: 1px 1px 0px magenta, -1px -1px 0px cyan, -2px 2px 0px yellow;
+h2{
+    font-size: var(--ms2);
+    text-align: center;
+    line-height: 0.9;
+    margin-bottom: var(--ms1);
+}
+h3{
+    font-size: var(--ms1);
+    line-height: 1;
+    margin-bottom: var(--ms-2);
+    text-transform: uppercase;
+}
+div>p{
+    line-height: 1.2;
+    font-size: var(--ms0);
+    margin-bottom: var(--ms-1);
+}
+figure{
+    margin: var(--ms1) 0;
+}
+img{
+    max-width: 100%;
+}
+@media (prefers-color-scheme: dark){
+    img{
+        filter: invert(90%);
+    }
+}
+/*------
+Customs
+------*/
+header.page-header{
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    padding: 0;
+}
+.page-header span{
+    background: var(--black);
+    color: var(--background-color);
+    text-align: right;
+    display: block;
+    padding: var(--ms-2);
+    margin-bottom: var(--ms0);
+    font-family: var(--heading-font);
 }
 h1.display{
     text-align: center;
-    font-size: var(--ms3);
-    font-weight: 700;
-}
-.illustrated{
-    font-family: var(--heading-font);
-    text-align: center;
-    font-size: var(--ms3);
-    font-style: italic;
-    text-transform: uppercase;
+    margin: var(--ms3) var(--ms-2);
 }
 @media all and (min-width: 600px){
     h1.display{
-        font-size: var(--ms5);
-        font-weight: 400;
+        font-size: var(--ms4);
     } 
 }
+h1.display, 
 h1.site-title{
-    font-size: var(--ms2);
-}
-h1.site-title a{
-    text-decoration: none;
+    text-shadow: 
+        1px 1px 0px magenta, 
+        -1px -1px 0px cyan, 
+        -2px 2px 0px yellow 
+    ;
 }
 @media (prefers-color-scheme: dark){
     h1.display, h1.site-title{
         color: white;
     }
 }
-h2{
-    font-size: var(--ms1);
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 0.9;
+article.index-list{
+    padding: var(--ms2) var(--ms-2);
+    background: var(--semi-trans-container);
+    box-shadow: 0px -15px 15px 10px rgba(0,0,0,0.02);
 }
-h3{
-    font-size: var(--ms0);
-    line-height: 1;
+.card{
+    background: var(--background-color);
+    padding: var(--ms0);
+    border-bottom: 1px dotted var(--black);
 }
-div>p{
-    line-height: 1.2;
-    font-size: var(--ms0);
-    text-indent: var(--ms2);
+.card:hover{
+    border-right: var(--ms-1) solid var(--black);
+}
+.card h3{
+    font-weight: 200;
+}
+.article-type{
+    text-transform: capitalize;
 }
 
-span.authorship{
-    font-size: var(--ms0);
-    font-weight: 700;
-}
+
+
+
+
+
 p span.dropcap{
     font-size: var(--ms3);
     font-family: var(--heading-font);
     line-height: 0.5;
 }
+
+
+
+
+
+
 
 p:last-of-type:after{
     content: '\2042';
@@ -194,61 +244,8 @@ p:last-of-type:after{
     font-weight: 700;
     margin-left: var(--ms-2);
 }
-article.article p{
-    line-height: 1.2;
-    margin: 0 var(--ms-1) var(--ms0) var(--ms-1);
-}
-img{
-    max-width: 100%;
-}
-@media (prefers-color-scheme: dark){
-    img{
-    filter: invert(90%);
-}
-}
-ul{
-    padding: 0;
-    list-style: none;
-}
 
-.card{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: var(--ms0);
-    border: 1px solid white;
-    position: relative;
-}
-.card::before{
-    content:" ";
-    position:absolute;
-    border: 5px solid var(--black);
-    z-index: -1;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-}
-.card a{
-    text-decoration: none;
-}
-.card div.title{
-    background: rgba(0,0,0,0.85);
-    color: white;
-    font-family: var(--heading-font);
-    padding: var(--ms-1);
-}
-.card div.title h2{
-    text-align: left;
-}
-.card div.title:hover{
-    box-shadow: 
-        1px 1px 0px magenta, 
-        -1px -1px 0px cyan, 
-        -4px 4px 0px yellow;
-}
-.card div.author{
-    background: rgba(255, 255, 255, 0.9);
-    color: black;
-    font-size: var(--ms-1);
-    padding:var(--ms-1);
-}
+
+
+
+

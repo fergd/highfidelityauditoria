@@ -1,15 +1,14 @@
 ---
 layout: home
 ---
-{% for post in site.posts %}
-<section class="card">
+<article class="index-list">
+	<h2 class="contents">Contents</h2>
+	{% for post in site.posts %}
 	<a href="{{post.url}}">
-		<div class="title">
-			<h2>{{post.title}}</h2>
-		</div>
-		<div class="author">
-			<span class="authorship">{{post.author}}</span>
-		</div>
+		<section class="card">
+				<h3>{{post.title}}</h3>
+		<span class="article-type">{{post.type}}</span> by <span>{{post.author}}</span>
+		</section>
 	</a>
-</section>
-{% endfor %}  
+	{% endfor %}  
+</article>

@@ -8,7 +8,7 @@ type: article
 author: Millie Chambers
 prompt: write a review of a jazz trio in a smoke filled jazz club basement in the sixties
 ---
-<div><img src="../assets/images/jazz-club-2.jpg" alt=""></div>
+<figure><img src="../assets/images/jazz-club-2.jpg" alt=""></figure>
 
 Venturing into the dimly lit basement of an atmospheric jazz club, one finds solace in the swirling tendrils of smoke that dance through the air, as the alluring melodies of a jazz trio permeate the space. It is within this hallowed haven that I experienced a transformative encounter with an extraordinary musical triumvirate that transported me back to the very essence of the sixties jazz era—a convergence of skill, passion, and the divine spirit of improvisation.
 
@@ -18,7 +18,7 @@ The bassist, a master of rhythmic alchemy, anchored the ensemble with a resolute
 
 The drummer, an enigmatic force behind the kit, deftly wielded his sticks with a mesmerizing blend of precision and abandon. His rhythmic tapestry weaved intricate patterns, conjuring a whirlwind of syncopation that filled the air with a vibrant energy. Each brushstroke and cymbal crash punctuated the improvisational conversations between the trio, serving as a sonic catalyst for their musical explorations.
 
-<div><img src="../assets/images/jazz-club.jpg" alt=""></div>
+<figure><img src="../assets/images/jazz-club.jpg" alt=""></figure>
 
 In this smoke-filled basement, the boundaries between artist and audience dissolved. The trio's music became a conduit through which emotions flowed freely, transcending the limitations of time and space. The spectators, immersed in this ethereal soundscape, were spellbound by the sheer virtuosity and raw emotion emanating from the stage. It was an intimate communion, an exchange of energy that left a lasting imprint on the souls of all who bore witness.
 

@@ -1,6 +1,7 @@
 ---
 title: Sentinel of the Audiel Realm
 subtitle: Is 8 more than a number?
+type: review
 permalink: /article/sentinel-of-the-audiel-realm
 date: 2032-06-07
 layout: article
@@ -8,10 +9,7 @@ author: Emily Remington
 prompt: Write four paragraphs for a hypothetical 1968 audiophile magazine about how a complicated 8 track player works using complicated words
 ---
 
-# Sentinel of the audiel realm
-<span class="authorship">{{site.author}}</span>
-## Is 8 more than a number?
-<img src="../assets/images/gears-and-pulleys.jpg" alt="">
+<figure><img src="../assets/images/gears-and-pulleys.jpg" alt=""></figure>
 
 <span class="dropcap">B</span>ehold, the mystical marvel known as the Enchantophon, an otherworldly contraption that has woven its spell upon the realms of sound. With its ethereal essence and enchanting melodies, this mesmerizing marvel conjures a symphony of harmony like no other. Crafted by the most skilled artisans of audial alchemy, the Enchantophon boasts an extraordinary amalgamation of mystical mechanisms and celestial circuitry.
 

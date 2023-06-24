@@ -9,17 +9,15 @@ author: Millie Chambers
 prompt: write an article for a mysterious group of women in the 1960's era who drink whiskey neat and listen to obscure vinyl records
 published: true
 ---
-
+<figure>
 <img src="../assets/images/enigma.jpg" alt="">
+</figure>
 
-The 1960s was an era of societal change, cultural upheaval, and passionate movements. Amidst the backdrop of civil rights, anti-war protests, and the rise of counterculture, a mysterious group of women emerged, defying societal norms with their love for whiskey and obscure vinyl records. These women, shrouded in secrecy, carved out a unique space for themselves, challenging conventions and creating their own brand of mystique. Let us delve into the captivating world of these enigmatic women who found solace in the harmonious blend of whiskey and music.
-
-
+<span class="dropcap">T</span>he 1960s was an era of societal change, cultural upheaval, and passionate movements. Amidst the backdrop of civil rights, anti-war protests, and the rise of counterculture, a mysterious group of women emerged, defying societal norms with their love for whiskey and obscure vinyl records. These women, shrouded in secrecy, carved out a unique space for themselves, challenging conventions and creating their own brand of mystique. Let us delve into the captivating world of these enigmatic women who found solace in the harmonious blend of whiskey and music.
 
 ### An Emblem of Rebellion and Empowerment:
 In an era dominated by gender stereotypes and societal expectations, these women boldly embraced whiskey, a drink often associated with masculinity. Opting for neat pours, they reveled in the robust flavors and rich aromas, shunning societal judgments. The act of sipping whiskey neat became a symbol of defiance, challenging the prevailing notions of what was considered "ladylike." By embracing this traditionally male-dominated domain, these women demonstrated their independence and determination to break free from the constraints placed upon them.
 
-### The Allure of Obscure Vinyl Records
 While mainstream music captured the hearts of many, these enigmatic women found solace in the realms of obscure vinyl records. From jazz and blues to psychedelic rock and folk, they delved into the uncharted depths of musical expression. Vinyl records, with their distinct crackling sounds, became a conduit for their emotions and an escape from the mundane. The women would gather in dimly lit rooms, surrounded by walls adorned with records that held hidden stories, sharing their discoveries and basking in the unique melodies that echoed through the room.
 
 ### A Sanctuary of Camaraderie and Secrecy
