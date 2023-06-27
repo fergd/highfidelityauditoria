@@ -6,7 +6,7 @@ layout: home
 	{% for post in site.posts %}
 	<a href="{{post.url}}">
 		<section class="card">
-				<h3>{{post.title}}</h3>
+			<h3>{{post.title}}</h3>
 		<span class="article-type">{{post.type}}</span> by <span>{{post.author}}</span>
 		</section>
 	</a>

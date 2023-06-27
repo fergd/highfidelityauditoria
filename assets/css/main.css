@@ -54,6 +54,7 @@ ul{
 :root{
     --base-font-size: 15px;
     --heading-font: 'Jost', sans-serif;
+    --one-off: 'Alice';
     --body-font: 'EB Garamond', serif;
     --ms-2:                 0.4rem;
     --ms-1:                 0.6rem;
@@ -167,17 +168,24 @@ Customs
 header.page-header{
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: space-between;
     z-index: -1;
     padding: 0;
 }
-.page-header span{
-    background: var(--black);
-    color: var(--background-color);
-    text-align: right;
-    display: block;
-    padding: var(--ms-2);
-    margin-bottom: var(--ms0);
+header.page-header div{
+    max-width: 33.33%;
+}
+.page-header div.cost{
+    border: 1px solid black;
+    text-align: center;
+}
+.page-header div.cost h4{
+    font-family: var(--one-off);
+}
+.page-header div.cost span{
     font-family: var(--heading-font);
+    font-size: 8px;
 }
 h1.display{
     text-align: center;
@@ -205,6 +213,7 @@ article.index-list{
     padding: var(--ms2) var(--ms-2);
     background: var(--semi-trans-container);
     box-shadow: 0px -15px 15px 10px rgba(0,0,0,0.02);
+    border-radius: var(--ms-1) var(--ms-1) 0 0;
 }
 .card{
     background: var(--background-color);
